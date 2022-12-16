@@ -5,11 +5,13 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
-import FireBase from '../assets/firebase.png';
+import Kafka from '../assets/kafka.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
-
+import Redux from '../assets/Redux.png';
+import AWS from '../assets/aws.png';
+import express from '../assets/Expressjs.png'
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-white text-black'>
@@ -54,8 +56,20 @@ const Skills = () => {
                   <p className='my-4'>TAILWIND</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={FireBase} alt="HTML icon" />
-                  <p className='my-4'>FIREBASE</p>
+                  <img className='w-20 mx-auto' src={express} alt="HTML icon" />
+                  <p className='my-4'>Express.js</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Redux} alt="HTML icon" />
+                  <p className='my-4'>Redux</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 h-18 mx-auto' src={AWS} alt="HTML icon" />
+                  <p className='my-4'>AWS</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 h-18 mx-auto' src={Kafka} alt="HTML icon" />
+                  <p className='my-4'>Kafka</p>
               </div>
           </div>
       </div>
