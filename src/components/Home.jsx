@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import background from '../assets/background.jpg'
 import { Link } from 'react-scroll';
+import '../css/typing-animation.css'
 const Home = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () =>{ setNav(!nav);}
@@ -13,7 +14,7 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
          Fangyi Wang
         </h1>
-        <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
+        <h2 className='typing-animation text-4xl sm:text-7xl font-bold text-[#8892b0]'>
           I'm a Full Stack Developer.
         </h2>
         <div>
